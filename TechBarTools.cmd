@@ -13,6 +13,10 @@ set "ROOT=%~dp0"
 ::  Set your organization's domain below before use
 set "DOMAIN=YOUR_DOMAIN"
 
+:: Ensure required output folders exist on the drive
+if not exist "%ROOT%Completed Driver Checks\" mkdir "%ROOT%Completed Driver Checks"
+if not exist "%ROOT%Completed Imports\" mkdir "%ROOT%Completed Imports"
+
 :MENU
 cls
 echo.
