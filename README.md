@@ -44,8 +44,8 @@ D:\
 │   ├── 2-DriverVersion.ps1                 ← After Fresh Start, Before Updates
 │   ├── 3-DriverVersion.ps1                 ← After Fresh Start, After Updates
 │   └── 4-DriverVersion.ps1                 ← After Autopilot
-├── Completed Driver Checks\                ← Driver version CSV output (auto-populated)
-└── Completed Imports\                      ← Processed Autopilot HWID CSVs (auto-populated)
+├── Completed Driver Checks\                ← Driver version CSV output (created automatically if missing)
+└── Completed Imports\                      ← Processed Autopilot HWID CSVs (created automatically if missing)
 ```
 
 ---
